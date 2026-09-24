@@ -1,6 +1,8 @@
 # Consistent Route Choice Model
 
-CRCM integrates individual trajectories and aggregate link flow observations to estimate route choice preferences and network demand jointly. A deep neural network represents nonlinear feature effects, and a graph attention network captures interactions among alternatives. Prism-constrained recursive choice probabilities connect the learned rewards to trajectory likelihoods and network flow moments. Training combines trajectory and Gaussian flow likelihoods with sampling-rate, OD-prior, and reward-parameter regularization.
+Python code for the Consistent Route Choice Model (CRCM): integrating individual and aggregate traffic data.
+
+CRCM combines GPS trajectories and link flow observations within a likelihood-based framework to jointly estimate route choice preferences and network flows. Prism-constrained deep inverse reinforcement learning captures nonlinear feature relationships and latent correlations among choice alternatives while limiting unreasonable detours.
 
 ## Environment
 
